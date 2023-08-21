@@ -1,0 +1,324 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+.navbar {
+    padding: 10px 20px;
+}
+
+.navbar-brand {
+    font-weight: 800;
+    font-size: 1.6rem;
+    margin-right: 30px;
+}
+
+.navbar-nav a {
+    font-size: 0.75rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    margin: 0 10px;
+}
+
+.dropdown-menu img {
+    margin-right: 10px;
+}
+
+.register-btn {
+    --bs-btn-padding-y: .45rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .70rem;
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: hsl(0, 0%, 41%);
+    --bs-btn-border-radius: .70rem;
+    --bs-btn-border-width: 0.1rem;
+    --bs-btn-border-color: hsl(0, 2%, 53%);
+}
+
+.login-btn {
+    --bs-btn-padding-y: .45rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .70rem;
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: hsl(0, 0%, 41%);
+    --bs-btn-border-radius: .70rem;
+    --bs-btn-border-width: 0;
+    margin-right: 7px;
+}
+
+.offcanvas {
+    max-width: 260px;
+}
+
+@media (max-width: 375px) {
+    .offcanvas {
+        max-width: 200px;
+    }
+}
+
+
+.offcanvas-header button {
+    border-width: 0;
+    background-color: white;
+}
+
+.offcanvas-body a {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    margin: 2px 10px;
+}
+
+.drawer-login-btn {
+    --bs-btn-padding-y: .45rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .9rem;
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: hsl(0, 0%, 41%);
+    --bs-btn-border-radius: .70rem;
+    --bs-btn-border-width: 0;
+    margin-bottom: 7px;
+}
+
+.drawer-register-btn {
+    --bs-btn-padding-y: .45rem;
+    --bs-btn-padding-x: .9rem;
+    --bs-btn-font-size: .9rem;
+    --bs-btn-font-weight: 500;
+    --bs-btn-color: hsl(0, 0%, 41%);
+    --bs-btn-border-radius: .70rem;
+    --bs-btn-border-width: 0.1rem;
+    --bs-btn-border-color: hsl(0, 2%, 53%);
+}
+
+.dropdown-btn {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: hsl(0, 0%, 41%);
+    margin: 2px 10px;
+    text-decoration: none;
+}
+
+.dropdown-btn img {
+    margin-left: 8px;
+}
+
+.dropdown-content {
+    margin-left: 20px;
+}
+
+.dropdown-content li {
+    margin: 10px 0;
+}
+
+.dropdown-content img {
+    margin-right: 10px;
+}
+
+
+
+
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    margin: 100px 0 30px 80px;
+}
+
+.container p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 0 0 30px 80px;
+    color: hsl(0, 0%, 41%);
+}
+
+#mainImage {
+    max-height: 550px;
+}
+
+.container-btn {
+    --bs-btn-padding-y: .6rem;
+    --bs-btn-padding-x: 1.5rem;
+    --bs-btn-font-size: .9rem;
+    --bs-btn-font-weight: 500;
+    --bs-btn-border-radius: .70rem;
+    --bs-btn-border-width: 0.1rem;
+    margin: 0 0 30px 80px;
+}
+
+.img-section {
+    margin: 30px 0 0 80px;
+}
+
+.img-section img {
+    margin-right: 20px;
+}
+
+@media (max-width : 1400px) {
+    .container h1 {
+        font-size: 4.5rem;
+        font-weight: 700;
+        margin: 90px 0 30px 30px;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0 0 25px 30px;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .container-btn {
+        --bs-btn-padding-y: .6rem;
+        --bs-btn-padding-x: 1.5rem;
+        --bs-btn-font-size: .9rem;
+        --bs-btn-font-weight: 500;
+        --bs-btn-border-radius: .70rem;
+        --bs-btn-border-width: 0.1rem;
+        margin: 0 0 25px 30px;
+    }
+
+    .img-section {
+        margin: 30px 0 0 30px;
+    }
+}
+
+@media (max-width : 1200px) {
+    .container h1 {
+        font-size: 4.0rem;
+        font-weight: 700;
+        margin: 90px 0 30px 0;
+    }
+
+    .container p {
+        font-size: 1.2rem;
+        font-weight: 500;
+        margin: 0 0 25px 0;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .container-btn {
+        --bs-btn-padding-y: .6rem;
+        --bs-btn-padding-x: 1.5rem;
+        --bs-btn-font-size: .9rem;
+        --bs-btn-font-weight: 500;
+        --bs-btn-border-radius: .70rem;
+        --bs-btn-border-width: 0.1rem;
+        margin: 0 0 25px 0;
+    }
+
+    .img-section {
+        margin: 30px 0 0 0px;
+    }
+}
+
+@media (max-width : 992px) {
+    .container h1 {
+        font-size: 3.0rem;
+        font-weight: 700;
+        margin: 50px 0 30px 0;
+    }
+
+    .container p {
+        font-size: 1.0rem;
+        font-weight: 500;
+        margin: 0 0 50px 0;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .img-section img {
+        margin-right: 10px;
+        width: 70px;
+    }
+}
+
+ 
+@media only screen and (max-width : 768px) {
+    .container h1{
+        font-size: 2.0rem;
+        font-weight: 700;
+        margin: 50px 0 20px 0;
+    }
+
+    .container p{
+        font-size: 0.8rem;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .container-btn{
+        --bs-btn-padding-y: .4rem;
+        --bs-btn-padding-x: 1.0rem;
+        --bs-btn-font-size: .7rem;
+        --bs-btn-font-weight: 500;
+        --bs-btn-border-radius: .70rem;
+        --bs-btn-border-width: 0.1rem;
+        margin: 0 0 35px 0;
+    }
+
+    .img-section{
+        margin: 0 0 0 0;
+    }
+
+    .img-section img{
+        margin-right: 10px;
+        width: 48px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #column1 {
+        order: 2;
+        text-align: center;
+    }
+
+    #column2 {
+        order: 1;
+    }
+
+    .container h1 {
+        font-size: 2.1rem;
+        font-weight: 700;
+        margin: 50px 0 17px 0;
+    }
+
+    .container p {
+        font-size: 1.0rem;
+        font-weight: 500;
+        margin: 0 0 15px 0;
+        color: hsl(0, 0%, 41%);
+    }
+
+    .container-btn {
+        --bs-btn-padding-y: .6rem;
+        --bs-btn-padding-x: 1.5rem;
+        --bs-btn-font-size: .9rem;
+        --bs-btn-font-weight: 500;
+        --bs-btn-border-radius: .70rem;
+        --bs-btn-border-width: 0.1rem;
+        margin: 0 0 35px 0;
+    }
+
+    .img-section img {
+        margin-right: 10px;
+        width: 70px;
+    }
+
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
